@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JeffConf Milano 2017</title>
+    <meta charset="utf-8" />
+    <meta property="og:title" content="JeffConf Milano 2017" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A community based conference focusing on Jeff-(Serverless-)based platforms and technologies. Sep 29th 2017 at Grand Visconti Palace, Milan" />
+    <meta property="og:url" content="https://milan.jeffconf.com" />
+    <meta property="og:image" content="https://milan.jeffconf.com/imgs/jeff-italy.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@JeffConf"/>
+    <meta name="twitter:title" content="JeffConf Milano 2017"/>
+    <meta name="twitter:description" content="A community based conference focusing on Jeff-(Serverless-)based platforms and technologies. Sep 29th 2017 at Grand Visconti Palace, Milan"/>
+    <meta name="twitter:creator" content="@JeffConf"/>
+    <meta name="twitter:image" content="https://milan.jeffconf.com/imgs/jeff-italy.png"/>
+    <meta name="twitter:image:src" content="https://milan.jeffconf.com/imgs/jeff-italy.png"/>
+    <meta name="twitter:domain" content="milan.jeffconf.com"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A community based conference focusing on Jeff-(Serverless-)based platforms and technologies. Sep 29th 2017 at Grand Visconti Palace, Milan"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#DC002B" />
+    <link rel="canonical" href="https://milan.jeffconf.com" />
+    <link rel="shortcut icon" type="image/x-icon" href="/imgs/jeff-italy.ico"/>
+    <link rel="stylesheet" href="/libs/tachyons.min.css" />
+    <style>
+    .lang-switch-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding: 2rem;
+    }
+
+    .lang-switch-link {
+        transition: opacity 300ms;
+        padding: 0 3px;
+    }
+    .lang-switch-link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lang-switch-link img,
+    #agenda img{
+        border-radius: 50%;
+    }
+
+    [lang="en"] .lang-it,
+    [lang="it"] .lang-en {
+        opacity: 0.3;
+    }
+    .flag-bg-container {
+        min-height: 180px;
+    }
+
+    .it-green-bg {
+        background-color: rgb(0, 146, 70);
+    }
+
+    .it-white-bg {
+        background-color: rgb(241, 242, 241);
+    }
+
+    .it-red-bg {
+        background-color: rgb(206, 43, 55);
+    }
+
+    .header-stripe {
+        margin-top: -30px;
+    }
+
+    .header-img {
+        background-image: url("/imgs/milano.jpg");
+    }
+
+    iframe#eventbrite {
+        width: 100%;
+        border: 0;
+        margin: 0;
+        overflow: scroll;
+        min-height: 850px;
+    }
+
+    @media screen and (min-width: 30em) {
+        iframe#eventbrite {
+            min-height: 680px;
+        }
+    }
+    </style>
+  </head>
+
+  <body class="bg-white">
+    
+    @@include('./header.html')
+      
+    <div id="contentBody" class="dt w-100 mw8-l mw7-m ph2 ph0-ns center mt3 sans-serif">
+      @@include('./home.html')
+      @@include('./agenda.html')
+      @@include('./speakers.html')
+      @@include('./venue.html')
+      @@include('./diversity.html')
+      @@include('./coc.html')
+      @@include('./tickets.html')
+    </div>
+
+    @@include('./footer.html')
+
+    <div class="lang-switch-container">
+      <span class="lang-switch-link lang-it underline-hover pointer" onclick="changeLanguage('it')">
+        @@include('./icon-it.html')
+        <!--<img class="grow shadow-4" src="/imgs/flag-it.png" title="Italiano" alt="IT" width="20" height="20" />-->
+      </span>
+      <span class="lang-switch-link lang-en underline-hover pointer" onclick="changeLanguage('en')">
+        @@include('./icon-en.html')
+        <!--<img class="grow shadow-4" src="/imgs/flag-en.png" title="English" alt="EN" width="20" height="20" />-->
+      </span>
+    </div>
+
+    <script type="text/javascript" src="/jeff.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-104417427-1', 'auto');
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,3 @@
+# Welcome to JeffConf 2017!
+User-agent: *
+Allow: /

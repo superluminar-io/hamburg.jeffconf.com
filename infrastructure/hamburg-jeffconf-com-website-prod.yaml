@@ -136,10 +136,10 @@ Resources:
                 - npm install
             build:
               commands:
-                - node_modules/.bin/hexo deploy
+                - npm run build
             post_build:
               commands:
-                - aws s3 sync public/ s3://$WEBSITE_BUCKET/ --delete
+                - aws s3 sync dist/ s3://$WEBSITE_BUCKET/ --delete
 
   DeployWebsiteRole:
     Type: AWS::IAM::Role
