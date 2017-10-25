@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: Serverless deployment pipeline for a website powered by Hexo, including a CDN, HTTPS/Cert
+Description: Serverless deployment pipeline for a static website including a CDN and HTTPS/Cert
 Parameters:
   GithubOauthToken:
     Type: String
