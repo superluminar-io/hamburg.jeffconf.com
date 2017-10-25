@@ -1,10 +1,6 @@
 # node / npm
 node_modules
-*.log
 
-# phenomic build
+# page generator
+index.html
 dist
-
-# other
-db.json
-public
