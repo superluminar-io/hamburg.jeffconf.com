@@ -8,7 +8,7 @@
         if (!document.getElementById(elementID)) {
             return;
         }
-        document.title = "JeffConf Milano 2017 - " + elementID;
+        document.title = "JeffConf Hamburg 2018 - " + elementID;
         window.history.pushState(null, null, "/" + elementID);
         changeArticle(elementID);
     }

@@ -1,14 +1,14 @@
 {
-  "name": "jeffconf-milano",
+  "name": "jeffconf-hamburg",
   "version": "0.0.1",
-  "description": "JeffConf Milano website",
+  "description": "JeffConf Hamburg website",
   "scripts": {
     "dev": "./node_modules/.bin/gulp serve-dev",
     "build": "./node_modules/.bin/gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexcasalboni/JeffConf-Milano.git"
+    "url": "git+https://github.com/alexcasalboni/JeffConf-Hamburg.git"
   },
   "keywords": [
     "jeffconf",
@@ -18,9 +18,9 @@
   "author": "Alex Casalboni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexcasalboni/JeffConf-Milano/issues"
+    "url": "https://github.com/alexcasalboni/JeffConf-Hamburg/issues"
   },
-  "homepage": "https://github.com/alexcasalboni/JeffConf-Milano#readme",
+  "homepage": "https://github.com/alexcasalboni/JeffConf-Hamburg#readme",
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "connect-history-api-fallback": "^1.3.0",
