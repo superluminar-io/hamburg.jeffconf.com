@@ -15,7 +15,7 @@ gulp.task('fileinclude', function() {
     }))
     .pipe(htmlmin({collapseWhitespace: true, removeComments: true}))
     .pipe(minifyInline())
-    .pipe(gulp.dest('src'))
+    .pipe(gulp.dest('dist'))
     .pipe(browserSync.stream());
 });
 
