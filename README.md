@@ -1,4 +1,5 @@
-# JeffConf Italy @ Milan 
+# JeffConf Hamburg 
+
 JeffConf Website
 
 # Developing
