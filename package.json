@@ -4,6 +4,7 @@
   "description": "JeffConf Hamburg website",
   "scripts": {
     "dev": "./node_modules/.bin/gulp serve-dev",
+    "serve-dist": "./node_modules/.bin/gulp serve-dist",
     "build": "./node_modules/.bin/gulp build"
   },
   "repository": {
