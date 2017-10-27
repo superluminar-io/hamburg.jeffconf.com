@@ -3,12 +3,12 @@
     "short_name": "JeffConf Hamburg",
     "icons": [
         {
-            "src": "\/imgs\/jeff-italy-small.png",
+            "src": "\/imgs\/jeff-hamburg-small.png",
             "sizes": "192x192",
             "type": "image\/png"
         },
         {
-            "src": "\/imgs\/jeff-italy.png",
+            "src": "\/imgs\/jeff-hamburg.png",
             "sizes": "512x512",
             "type": "image\/png"
         }
