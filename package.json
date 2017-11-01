@@ -7,10 +7,6 @@
     "serve-dist": "./node_modules/.bin/gulp serve-dist",
     "build": "./node_modules/.bin/gulp build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexcasalboni/JeffConf-Hamburg.git"
-  },
   "keywords": [
     "jeffconf",
     "serverless",
@@ -19,9 +15,9 @@
   "author": "Alex Casalboni, Soenke Ruempler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexcasalboni/JeffConf-Hamburg/issues"
+    "url": "https://github.com/superluminar-io/hamburg.jeffconf.com"
   },
-  "homepage": "https://github.com/alexcasalboni/JeffConf-Hamburg#readme",
+  "homepage": "https://github.com/superluminar-io/hamburg.jeffconf.com#readme",
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "connect-history-api-fallback": "^1.3.0",
