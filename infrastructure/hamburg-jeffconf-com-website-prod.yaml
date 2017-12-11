@@ -159,6 +159,8 @@ Resources:
     Properties:
       DistributionConfig:
         Aliases:
+        - jeffconf.com
+        - www.jeffconf.com
         - !Ref ApexDomainName
         PriceClass: PriceClass_100
         Origins:
