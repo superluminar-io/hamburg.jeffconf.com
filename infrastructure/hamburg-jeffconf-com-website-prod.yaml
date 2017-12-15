@@ -191,4 +191,6 @@ Resources:
       DomainValidationOptions:
         - DomainName: !Ref ApexDomainName
           ValidationDomain: jeffconf.com 
-
+      SubjectAlternativeNames:
+        - jeffconf.com
+        - www.jeffconf.com
