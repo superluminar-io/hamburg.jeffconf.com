@@ -46,6 +46,7 @@
             venue: true,
             coc: true,
             tickets: true,
+            about: true,
             diversity: true
         };
 
