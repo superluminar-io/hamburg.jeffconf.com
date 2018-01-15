@@ -47,6 +47,7 @@
             coc: true,
             tickets: true,
             about: true,
+            workshops: true,
             diversity: true
         };
 
