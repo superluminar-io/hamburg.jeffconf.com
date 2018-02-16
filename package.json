@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "JeffConf Hamburg website",
   "scripts": {
+    "start": "npm run serve-dist",
     "dev": "./node_modules/.bin/gulp serve-dev",
     "serve-dist": "./node_modules/.bin/gulp serve-dist",
     "build": "./node_modules/.bin/gulp build"
